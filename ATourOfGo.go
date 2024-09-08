@@ -13,6 +13,14 @@ type Vertex struct {
 	y int
 }
 
+type Vertex2 struct {
+	Lat, Long float64
+}
+
+type Vertex3 struct {
+	firstName, lastName string
+}
+
 func pow(x, n, lim float64) float64 {
 	if v := math.Pow(x, n); v < lim {
 		return v
@@ -162,6 +170,36 @@ func SlicesOfSlice() {
 	}
 }
 
+func do(i interface{}) {
+	switch v := i.(type) {
+	case int:
+		fmt.Printf("Twice %v is %v\n", v, v*2)
+	case string:
+		fmt.Printf("%q is %v bytes long\n", v, len(v))
+	case bool:
+		fmt.Printf("This is a boolean value %v\n", v)
+	default:
+		fmt.Printf("I don't know about type %T!\n", v)
+	}
+}
+
+func fibonacci() func() int {
+	a, b := 0, 1
+	return func() int {
+		a, b = b, a+b
+		return a
+	}
+}
+
+type Person struct {
+	name string
+	age  int
+}
+
+func (p Person) String() string {
+	return fmt.Sprintf("%v (%v years)", p.name, p.age)
+}
+
 func main() {
 	defer fmt.Println("hello world!")
 
@@ -230,4 +268,43 @@ func main() {
 	for _, value := range pow2 {
 		fmt.Printf("%d\n", value)
 	}
+
+	var m map[string]Vertex2
+
+	m = make(map[string]Vertex2)
+	m["Ohayo GOzaimasu"] = Vertex2{
+		40.68433, -74.39967,
+	}
+	fmt.Println(m["Ohayo GOzaimasu"])
+
+	var names = map[string]Vertex3{
+		"first": {
+			"John", "Conner",
+		},
+		"second": {
+			"Sarah", "Conner",
+		},
+	}
+
+	fmt.Println(names)
+
+	m3 := make(map[string]int)
+
+	m3["Answer"] = 42
+	fmt.Println("The value:", m3["Answer"])
+
+	m3["Answer"] = 48
+	fmt.Println("The value:", m3["Answer"])
+
+	delete(m3, "Answer")
+	fmt.Println("The value:", m3["Answer"])
+
+	do(21)
+	do("hello")
+	do(true)
+	do(3.14)
+
+	a := Person{"Arthur Dent", 42}
+	z := Person{"Zaphod Beeblebrox", 9001}
+	fmt.Println(a, z)
 }
