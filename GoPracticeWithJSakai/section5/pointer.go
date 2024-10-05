@@ -3,16 +3,56 @@ package main
 import "fmt"
 
 type Vertex struct {
-	X, Y int
+	x, y int
 	S    string
 }
 
+type Vertex2 struct {
+	x, y int
+}
+
+// 値レシーバー
+func (v Vertex2) Area() int {
+	return v.x * v.y
+}
+
+// ポインターレシーバー
+func (v *Vertex2) Scale(i int) {
+	v.x = v.x * i
+	v.y = v.y * i
+}
+
+type Vertex2_3D struct {
+	Vertex2
+	z int
+}
+
+// 値レシーバー
+func (v Vertex2_3D) Area3D() int {
+	return v.x * v.y * v.z
+}
+
+// ポインターレシーバー
+func (v *Vertex2_3D) Scale3D(i int) {
+	v.x = v.x * i
+	v.y = v.y * i
+	v.z = v.z * i
+}
+
+func New(x, y, z int) *Vertex2_3D {
+	return &Vertex2_3D{Vertex2{x, y}, z}
+}
+
+func Area(v Vertex2) int {
+	return v.x * v.y
+}
+
 func structEx() {
-	v := Vertex{X: 1, Y: 2}
-	v2 := Vertex{X: 1}
+	v := Vertex{x: 1, y: 2}
+	v2 := Vertex{x: 1}
 	fmt.Println(v)
 	fmt.Println(v2)
-	fmt.Println(v.X, v.Y, v2.X, v2.Y)
+	fmt.Println(v.x, v.y, v2.x, v2.y)
 
 	v3 := Vertex{10, 20, "test"}
 	fmt.Println(v3)
@@ -68,19 +108,19 @@ func newAndMake() {
 }
 
 func changeVertex(v Vertex) {
-	v.X = 1000
+	v.x = 1000
 }
 
 func changeVertex2(v *Vertex) {
-	(*v).X = 1000
+	(*v).x = 1000
 }
 
 func compareStructAndPointer() {
-	v := Vertex{X: 1, Y: 2}
+	v := Vertex{x: 1, y: 2}
 	changeVertex(v)
 	fmt.Println(v)
 
-	v2 := &Vertex{X: 1, Y: 2}
+	v2 := &Vertex{x: 1, y: 2}
 	changeVertex2(v2)
 	fmt.Println(*v2)
 }
@@ -111,4 +151,10 @@ func main() {
 	structEx()
 
 	compareStructAndPointer()
+
+	// v8 := Vertex2{3, 4}
+	v8 := New(3, 4, 5)
+	v8.Scale(10)
+	fmt.Println(v8.Area())
+	fmt.Println(v8.Area3D())
 }
