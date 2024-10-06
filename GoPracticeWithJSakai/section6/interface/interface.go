@@ -35,6 +35,59 @@ func driveCar(human Human) {
 	}
 }
 
+func do(i interface{}) {
+	/*
+		// タイプアサーション
+		ii := i.(int)
+		ii *= 2
+		fmt.Println(ii)
+	*/
+
+	// switch type文
+	switch v := i.(type) {
+	case int:
+		ii := v * 2
+		fmt.Println(ii)
+	case string:
+		ss := v + "!"
+		fmt.Println(ss)
+	case bool:
+		if v == true {
+			fmt.Printf("true is %v\n", v)
+		} else {
+			fmt.Printf("false is %v\n", v)
+		}
+	default:
+		fmt.Printf("I don't know %T\n", v)
+	}
+}
+
+type Person2 struct {
+	Name string
+	Age  int
+}
+
+func (p Person2) string() string {
+	return fmt.Sprintf("My name is %v\n", p.Name)
+}
+
+// Custom error
+type userNotFound struct {
+	Username string
+}
+
+func (e *userNotFound) Error() string {
+	return fmt.Sprintf("User not found: %v", e.Username)
+}
+
+func myFunc() error {
+	ok := false
+	if ok {
+		return nil
+	}
+	return &userNotFound{Username: "mike"}
+}
+
 func main() {
 	// var mike Human = Person{"Mike"}
 
@@ -48,4 +101,19 @@ func main() {
 	driveCar(mike)
 	driveCar(x)
 	// driveCar(dog) is error(missing say method)
+
+	do(10)
+	do("Mike")
+	do(true)
+	do(false)
+	do(2.5)
+
+	john := Person2{"John", 22}
+	fmt.Println(john)
+	fmt.Println(john.string())
+
+	// Custom error
+	if err := myFunc(); err != nil {
+		fmt.Println(err)
+	}
 }
