@@ -1,4 +1,4 @@
-package main
+package time
 
 import (
 	"GoPracticeWithJSakai/section8/mylib"
