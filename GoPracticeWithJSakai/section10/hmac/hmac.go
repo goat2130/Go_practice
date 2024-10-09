@@ -24,6 +24,7 @@ func main() {
 	const apiKey = "User1Key"
 	const apiSecret = "User1Secret"
 
+	// hmacは認証に使われる
 	h := hmac.New(sha256.New, []byte(apiSecret))
 	h.Write([]byte("data"))
 	sign := hex.EncodeToString(h.Sum(nil))
