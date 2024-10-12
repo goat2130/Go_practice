@@ -1,0 +1,9 @@
+2024/10/12 11:55:04 main.go:11: test
+2024/10/12 14:26:18 bitflyer.go:56: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2024/10/12 14:26:18 bitflyer.go:32: 1728710778
+2024/10/12 14:26:19 bitflyer.go:92: url=me/getbalance resp=map[]%!(EXTRA []uint8=[123 34 115 116 97 116 117 115 34 58 45 53 48 48 44 34 101 114 114 111 114 95 109 101 115 115 97 103 101 34 58 34 75 101 121 32 110 111 116 32 102 111 117 110 100 34 44 34 100 97 116 97 34 58 110 117 108 108 125])
+2024/10/12 14:26:19 bitflyer.go:101: action=GetBalance err=%s json: cannot unmarshal object into Go value of type []bitflyer.Balance
+2024/10/12 14:55:32 bitflyer.go:56: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2024/10/12 14:55:32 bitflyer.go:32: 1728712532
+2024/10/12 14:55:33 bitflyer.go:92: url=me/getbalance resp=map[]%!(EXTRA []uint8=[123 34 115 116 97 116 117 115 34 58 45 53 48 48 44 34 101 114 114 111 114 95 109 101 115 115 97 103 101 34 58 34 75 101 121 32 110 111 116 32 102 111 117 110 100 34 44 34 100 97 116 97 34 58 110 117 108 108 125])
+2024/10/12 14:55:33 bitflyer.go:101: action=GetBalance err=%s json: cannot unmarshal object into Go value of type []bitflyer.Balance
