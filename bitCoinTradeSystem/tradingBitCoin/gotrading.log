@@ -7,3 +7,7 @@
 2024/10/12 14:55:32 bitflyer.go:32: 1728712532
 2024/10/12 14:55:33 bitflyer.go:92: url=me/getbalance resp=map[]%!(EXTRA []uint8=[123 34 115 116 97 116 117 115 34 58 45 53 48 48 44 34 101 114 114 111 114 95 109 101 115 115 97 103 101 34 58 34 75 101 121 32 110 111 116 32 102 111 117 110 100 34 44 34 100 97 116 97 34 58 110 117 108 108 125])
 2024/10/12 14:55:33 bitflyer.go:101: action=GetBalance err=%s json: cannot unmarshal object into Go value of type []bitflyer.Balance
+2024/10/14 10:48:29 bitflyer.go:56: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2024/10/14 10:48:29 bitflyer.go:32: 1728870509
+2024/10/14 10:48:30 bitflyer.go:132: action=Datetime, err=parsing time "2024-10-14T01:48:07.153" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2024/10/14 10:48:30 bitflyer.go:132: action=Datetime, err=parsing time "2024-10-14T01:48:07.153" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
