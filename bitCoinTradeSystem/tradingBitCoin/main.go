@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"tradingBitCoin/app/models"
+	"tradingBitCoin/app/controllers"
 	"tradingBitCoin/config"
 	"tradingBitCoin/utils"
 )
@@ -36,5 +35,7 @@ func main() {
 	//r, _ := apiClient.ListOrder(params)
 	//fmt.Println(r)
 
-	fmt.Println(models.DbConnection)
+	// fmt.Println(models.DbConnection)
+	controllers.StreamIngestionData()
+	controllers.StartWebServer()
 }

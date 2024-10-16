@@ -11,3 +11,32 @@
 2024/10/14 10:48:29 bitflyer.go:32: 1728870509
 2024/10/14 10:48:30 bitflyer.go:132: action=Datetime, err=parsing time "2024-10-14T01:48:07.153" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
 2024/10/14 10:48:30 bitflyer.go:132: action=Datetime, err=parsing time "2024-10-14T01:48:07.153" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2024/10/16 18:57:21 bitflyer.go:171: connecting to was://ws.loghtstream.bitflyer.com/json-rpc
+2024/10/16 18:57:21 bitflyer.go:175: dial:malformed ws or wss URL
+2024/10/16 18:59:08 bitflyer.go:171: connecting to wss://ws.loghtstream.bitflyer.com/json-rpc
+2024/10/16 18:59:09 bitflyer.go:175: dial:dial tcp: lookup ws.loghtstream.bitflyer.com: no such host
+2024/10/16 19:01:11 bitflyer.go:171: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/16 19:01:48 bitflyer.go:171: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/16 19:01:48 streamdata.go:15: action=StreamIngestionData, {BTC_USD 2024-10-16T10:01:48.5006968Z RUNNING 413659 66300.5 66500 0.01 0.13396664 3.74 3.77396664 0 0 66500 1.01675472 1.01675472}
+2024/10/16 19:23:52 bitflyer.go:171: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/16 19:23:58 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T10:23:58.2537511Z RUNNING 413719 66433.5 66500 0.01 0.12396664 2.92 3.62396664 0 0 66500 1.02675472 1.02675472}
+2024/10/16 19:24:27 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T10:24:27.4910904Z RUNNING 413720 66433.5 66500 0.01 0.12396664 2.92 3.63396664 0 0 66500 1.02675472 1.02675472}
+2024/10/16 19:24:53 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T10:24:53.1988748Z RUNNING 413721 66433.5 66500 0.01 0.12396664 2.92 3.62396664 0 0 66500 1.02675472 1.02675472}
+2024/10/16 20:20:32 bitflyer.go:171: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/16 20:22:09 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T11:22:09.5201815Z RUNNING 413792 66300.51 66499.99 0.00466698 0.03577621 2.65466698 3.09974285 0 0 66499.99 1.06675472 1.06675472}
+2024/10/16 20:22:29 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T11:22:29.5152871Z RUNNING 413795 66300.51 66500 0.00466698 0.09396664 2.65466698 3.07396664 0 0 66499.99 1.06675472 1.06675472}
+2024/10/16 20:22:53 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T11:22:53.0537916Z RUNNING 413797 66300.51 66500 0.00681066 0.09396664 2.65681066 3.08396664 0 0 66499.99 1.06675472 1.06675472}
+2024/10/16 20:22:56 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T11:22:56.2851261Z RUNNING 413798 66300.51 66500 0.00681066 0.09396664 2.65681066 3.07396664 0 0 66499.99 1.06675472 1.06675472}
+2024/10/16 20:23:12 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T11:23:12.5909094Z RUNNING 413800 66300.51 66500 0.00214368 0.09396664 2.65214368 3.07396664 0 0 66499.99 1.06675472 1.06675472}
+2024/10/16 20:25:22 bitflyer.go:171: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/16 20:25:55 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T11:25:55.4048635Z RUNNING 413804 66300.51 66500 0.00214368 0.09207584 2.65214368 3.06207584 0 0 66500 1.06864552 1.06864552}
+2024/10/16 20:25:56 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T11:25:56.0668423Z RUNNING 413806 66300.5 66500 0.01 0.0905536 2.65 3.0605536 0 0 66500 1.07016776 1.07016776}
+2024/10/16 20:31:25 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/16 20:32:11 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T11:32:10.9738942Z 413842 66300.51 66500 0.00142248 0.07692807 2.30142248 2.82692807 66500 1.08379329 1.08379329}
+2024/10/16 20:32:15 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T11:32:15.3244997Z 413843 66300.51 66500 0.00142248 0.07692807 2.30142248 2.81692807 66500 1.08379329 1.08379329}
+2024/10/16 20:34:35 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/16 21:17:12 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/16 21:18:05 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T12:18:05.3457632Z 413967 66372.29 66500 0.01 0.06332807 2.13 3.52332807 66500 1.09739329 1.09739329}
+2024/10/16 21:18:12 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T12:18:12.7183065Z 413969 66372.29 66500 0.01 0.05332807 2.13 3.51332807 66500 1.10739329 1.10739329}
+2024/10/16 21:18:21 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T12:18:21.1644736Z 413970 66372.29 66500 0.01 0.05332807 2.13 3.52332807 66500 1.10739329 1.10739329}
+2024/10/16 21:19:54 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
