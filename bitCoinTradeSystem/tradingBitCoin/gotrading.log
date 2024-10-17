@@ -40,3 +40,377 @@
 2024/10/16 21:18:12 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T12:18:12.7183065Z 413969 66372.29 66500 0.01 0.05332807 2.13 3.51332807 66500 1.10739329 1.10739329}
 2024/10/16 21:18:21 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-16T12:18:21.1644736Z 413970 66372.29 66500 0.01 0.05332807 2.13 3.52332807 66500 1.10739329 1.10739329}
 2024/10/16 21:19:54 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/17 09:27:31 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/17 09:27:59 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:27:59.7958458Z 418286 67506.2 67825.42 0.02 0.04398554 3.55 3.70954804 67517.15 0.47172442 0.47172442}
+2024/10/17 09:28:13 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:28:13.8513626Z 418289 67506.21 67825.42 0.00579948 0.04398554 3.55769789 3.70954804 67517.15 0.47172442 0.47172442}
+2024/10/17 09:28:25 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:28:25.76306Z 418290 67506.21 67766.26 0.00579948 0.01 3.55769789 3.71954804 67517.15 0.47172442 0.47172442}
+2024/10/17 09:28:40 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:28:40.9805272Z 418292 67506.21 67766.25 0.00579948 0.02135757 3.55769789 3.73090561 67517.15 0.47172442 0.47172442}
+2024/10/17 09:29:05 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:29:05.6238818Z 418295 67506.21 67787.83 0.00579948 0.01 3.55579948 3.71954804 67517.15 0.47172442 0.47172442}
+2024/10/17 09:29:30 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:29:31.096956Z 418297 67506.21 67825.42 0.00579948 0.04398554 3.55579948 3.68412687 67517.15 0.47172442 0.47172442}
+2024/10/17 09:47:48 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/17 09:47:51 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:47:51.8655421Z 418402 67623.21 67924.25 0.02 0.04886465 3.65773563 3.52792829 67517.15 0.46172442 0.46172442}
+2024/10/17 09:48:14 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:48:13.8828686Z 418405 67623.21 67924.25 0.02 0.04886465 3.65 3.50671041 67517.15 0.46172442 0.46172442}
+2024/10/17 09:48:29 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:48:29.5788639Z 418406 67599.52 67924.25 0.01 0.04886465 3.63 3.50671041 67517.15 0.46172442 0.46172442}
+2024/10/17 09:48:58 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:48:58.4064811Z 418410 67632.91 67924.25 0.01 0.04886465 3.64707107 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:49:22 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:49:22.8209038Z 418411 67599.53 67924.25 0.00406681 0.04886465 3.63707107 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:49:36 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:49:36.6696117Z 418413 67625.01 67924.25 0.01 0.04886465 3.64406681 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:50:01 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:50:01.6694681Z 418415 67599.52 67924.25 0.01 0.04886465 3.63 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:50:33 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:50:33.2968465Z 418418 67633.78 67924.25 0.01 0.04886465 3.64752194 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:50:58 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:50:58.2936668Z 418419 67599.53 67924.25 0.00585254 0.04886465 3.63752194 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:51:19 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:51:19.604912Z 418421 67636.24 67924.25 0.01 0.04886465 3.64585254 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:51:40 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:51:40.7981756Z 418424 67564.25 67924.25 0.04 0.04886465 3.62 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:52:10 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:52:10.8103606Z 418426 67598.26 67924.25 0.01 0.04886465 3.63665612 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:52:24 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:52:24.6170861Z 418428 67598.27 67924.25 0.00120821 0.04886465 3.66786433 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:52:31 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:52:31.1699916Z 418430 67598.27 67924.25 0.00120821 0.04886465 3.65120821 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:53:13 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:53:13.2851234Z 418432 67607.79 67924.25 0.01 0.04886465 3.66 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:53:13 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:53:13.8922466Z 418435 67607.8 67924.25 0.00527486 0.04886465 3.66781932 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 09:53:14 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T00:53:14.7354436Z 418436 67607.8 67924.25 0.00527486 0.04886465 3.65781932 3.53007297 67517.15 0.46172442 0.46172442}
+2024/10/17 10:38:17 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/17 11:10:44 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/17 11:10:47 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:10:47.6094799Z 419016 67522.65 67886.04 0.01 0.04377572 4.55 3.51645891 67517.15 0.42653108 0.42653108}
+2024/10/17 11:11:30 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:11:29.9801757Z 419018 67531.53 67886.04 0.01 0.04377572 4.56748246 3.51645891 67517.15 0.41653108 0.41653108}
+2024/10/17 11:11:35 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:11:35.5504827Z 419020 67531.53 67886.04 0.01 0.04377572 4.66 3.51645891 67517.15 0.41653108 0.41653108}
+2024/10/17 11:11:57 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:11:56.8863613Z 419022 67555.19 67886.04 0.01 0.04377572 4.67709385 3.51645891 67517.15 0.41653108 0.41653108}
+2024/10/17 11:12:38 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:12:37.9745889Z 419026 67531.54 67815.04 0.00709385 0.01 4.65709385 3.51645891 67517.15 0.41653108 0.41653108}
+2024/10/17 11:12:55 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:12:55.3263056Z 419028 67544.38 67815.04 0.02 0.01 4.67 3.51645891 67517.15 0.41653108 0.41653108}
+2024/10/17 11:13:08 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/17 11:13:11 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:13:11.1180136Z 419031 67544.39 67815.03 0.00792364 0.02465545 4.68792364 3.54111436 67517.15 0.41653108 0.41653108}
+2024/10/17 11:13:14 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:13:14.0514541Z 419034 67544.39 67815.03 0.00792364 0.02465545 4.68792364 3.49733864 67517.15 0.41653108 0.41653108}
+2024/10/17 11:13:29 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:13:28.9679189Z 419040 67544.39 67815.03 0.00792364 0.02465545 4.44792364 3.48733864 67517.15 0.41653108 0.41653108}
+2024/10/17 11:13:33 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/17 11:13:52 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:13:52.2067629Z 419042 67494.84 67815.03 0.01 0.02465545 4.45 3.48733864 67517.15 0.41653108 0.41653108}
+2024/10/17 11:13:53 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:13:53.7005205Z 419046 67494.85 67815.03 0.00649745 0.05132816 4.46801807 3.51401135 67517.15 0.41653108 0.41653108}
+2024/10/17 11:13:55 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:13:55.629425Z 419047 67494.85 67815.03 0.00649745 0.05132816 4.47801807 3.51401135 67517.15 0.41653108 0.41653108}
+2024/10/17 11:14:09 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:14:08.9825064Z 419048 67494.85 67815.03 0.00649745 0.05132816 4.48801807 3.51401135 67517.15 0.41653108 0.41653108}
+2024/10/17 11:14:29 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:14:29.3510752Z 419049 67494.85 67815.03 0.00649745 0.05132816 4.57801807 3.51401135 67517.15 0.41653108 0.41653108}
+2024/10/17 11:14:48 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:14:48.0093165Z 419050 67494.85 67749.62 0.00649745 0.01 4.57801807 3.52401135 67517.15 0.41653108 0.41653108}
+2024/10/17 11:15:14 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/17 11:16:24 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T02:16:24.1720961Z 419053 67494.85 67749.62 0.00649745 0.01 4.56649745 3.4993559 67517.15 0.41653108 0.41653108}
+2024/10/17 12:04:11 bitflyer.go:212: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2024/10/17 12:04:12 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T03:04:11.9939935Z 419293 67314.6 67602.08 0.01 0.01 4.6 3.45944324 67517.15 0.38653108 0.38653108}
+2024/10/17 12:04:21 server.go:3489: http: panic serving [::1]:53760: runtime error: slice bounds out of range [-9:]
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x14000346180?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+tradingBitCoin/app/tradingalgo.IchimokuCloud({0x140003480d0?, 0x19, 0x14000319868?})
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/tradingalgo/algo.go:48 +0xd8
+tradingBitCoin/app/models.(*DataFrameCandle).AddIchimoku(0x140002e0c80)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:155 +0x138
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x140002e4700}, 0x140002c5900)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:132 +0x43c
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x140002e4700}, 0x140002c5900)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x140002e4700?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x140002e4700}, 0x140002c5900)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x14000328ab0?}, {0x100e3fd18?, 0x140002e4700?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000132000, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:21 server.go:3489: http: panic serving [::1]:53761: runtime error: slice bounds out of range [-9:]
+goroutine 55 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x14000346b58?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+tradingBitCoin/app/tradingalgo.IchimokuCloud({0x140003485b0?, 0x19, 0x14000319868?})
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/tradingalgo/algo.go:48 +0xd8
+tradingBitCoin/app/models.(*DataFrameCandle).AddIchimoku(0x140002e0dc0)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:155 +0x138
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x140002e47e0}, 0x140002c5a40)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:132 +0x43c
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x140002e47e0}, 0x140002c5a40)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x140002e47e0?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x140002e47e0}, 0x140002c5a40)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x140003290e0?}, {0x100e3fd18?, 0x140002e47e0?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000290bd0, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:37 server.go:3489: http: panic serving [::1]:53765: runtime error: index out of range [25] with length 25
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x14000178708?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+github.com/markcheno/go-talib.ema({0x14000400000, 0x19, 0x140003197b8?}, 0x1a, 0x3fb2f684bda12f68)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:114 +0x130
+github.com/markcheno/go-talib.Macd({0x14000400000, 0x19, 0x19}, 0x1008dd518?, 0x30?, 0x9)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:2008 +0xc4
+tradingBitCoin/app/models.(*DataFrameCandle).AddMacd(0x1400014e460, 0xc, 0x1a, 0x9)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:181 +0xd4
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x140001422a0}, 0x1400012a500)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:162 +0x5b0
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x140001422a0}, 0x1400012a500)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x140001422a0?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x140001422a0}, 0x1400012a500)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x140001245d0?}, {0x100e3fd18?, 0x140001422a0?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000132240, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:37 server.go:3489: http: panic serving [::1]:53766: runtime error: index out of range [25] with length 25
+goroutine 60 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x1400038a8b8?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+github.com/markcheno/go-talib.ema({0x14000348b60, 0x19, 0x1400031b7b8?}, 0x1a, 0x3fb2f684bda12f68)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:114 +0x130
+github.com/markcheno/go-talib.Macd({0x14000348b60, 0x19, 0x19}, 0x1008dd518?, 0x30?, 0x9)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:2008 +0xc4
+tradingBitCoin/app/models.(*DataFrameCandle).AddMacd(0x140002e1180, 0xc, 0x1a, 0x9)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:181 +0xd4
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x140002e4a80}, 0x140002c5e00)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:162 +0x5b0
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x140002e4a80}, 0x140002c5e00)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x140002e4a80?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x140002e4a80}, 0x140002c5e00)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x14000329b30?}, {0x100e3fd18?, 0x140002e4a80?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000290fc0, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:37 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T03:04:37.7304388Z 419297 67325.01 67602.07 0.01 0.02463828 4.61764226 3.48408152 67517.15 0.38653108 0.38653108}
+2024/10/17 12:04:41 server.go:3489: http: panic serving [::1]:53768: runtime error: index out of range [25] with length 25
+goroutine 62 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x1400038b500?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+github.com/markcheno/go-talib.ema({0x14000348dd0, 0x19, 0x1400031b7b8?}, 0x1a, 0x3fb2f684bda12f68)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:114 +0x130
+github.com/markcheno/go-talib.Macd({0x14000348dd0, 0x19, 0x19}, 0x1008dd518?, 0x30?, 0x9)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:2008 +0xc4
+tradingBitCoin/app/models.(*DataFrameCandle).AddMacd(0x140002e14a0, 0xc, 0x1a, 0x9)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:181 +0xd4
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x140002e4b60}, 0x140003a6140)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:162 +0x5b0
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x140002e4b60}, 0x140003a6140)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x140002e4b60?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x140002e4b60}, 0x140003a6140)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x140003a8360?}, {0x100e3fd18?, 0x140002e4b60?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000291200, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:42 server.go:3489: http: panic serving [::1]:53769: runtime error: index out of range [25] with length 25
+goroutine 64 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x140001790e0?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+github.com/markcheno/go-talib.ema({0x14000400270, 0x19, 0x140003197b8?}, 0x1a, 0x3fb2f684bda12f68)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:114 +0x130
+github.com/markcheno/go-talib.Macd({0x14000400270, 0x19, 0x19}, 0x1008dd518?, 0x30?, 0x9)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:2008 +0xc4
+tradingBitCoin/app/models.(*DataFrameCandle).AddMacd(0x1400014e5a0, 0xc, 0x1a, 0x9)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:181 +0xd4
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x14000142380}, 0x140003a6280)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:162 +0x5b0
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x14000142380}, 0x140003a6280)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x14000142380?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x14000142380}, 0x140003a6280)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x140003a8810?}, {0x100e3fd18?, 0x14000142380?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x140002913b0, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:43 server.go:3489: http: panic serving [::1]:53770: runtime error: index out of range [25] with length 25
+goroutine 29 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x14000179ab8?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+github.com/markcheno/go-talib.ema({0x14000400680, 0x19, 0x140003197b8?}, 0x1a, 0x3fb2f684bda12f68)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:114 +0x130
+github.com/markcheno/go-talib.Macd({0x14000400680, 0x19, 0x19}, 0x1008dd518?, 0x30?, 0x9)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:2008 +0xc4
+tradingBitCoin/app/models.(*DataFrameCandle).AddMacd(0x1400014e6e0, 0xc, 0x1a, 0x9)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:181 +0xd4
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x14000142460}, 0x1400012a640)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:162 +0x5b0
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x14000142460}, 0x1400012a640)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x14000142460?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x14000142460}, 0x1400012a640)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x14000125500?}, {0x100e3fd18?, 0x14000142460?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000132630, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:45 server.go:3489: http: panic serving [::1]:53771: runtime error: index out of range [25] with length 25
+goroutine 31 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x14000444498?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+github.com/markcheno/go-talib.ema({0x14000400a90, 0x19, 0x140003197b8?}, 0x1a, 0x3fb2f684bda12f68)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:114 +0x130
+github.com/markcheno/go-talib.Macd({0x14000400a90, 0x19, 0x19}, 0x1008dd518?, 0x30?, 0x9)
+	/Users/yagisawahodaka/go/pkg/mod/github.com/markcheno/go-talib@v0.0.0-20190307022042-cd53a9264d70/talib.go:2008 +0xc4
+tradingBitCoin/app/models.(*DataFrameCandle).AddMacd(0x1400014e820, 0xc, 0x1a, 0x9)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:181 +0xd4
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x14000142540}, 0x1400012a780)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:162 +0x5b0
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x14000142540}, 0x1400012a780)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x14000142540?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x14000142540}, 0x1400012a780)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x140001259e0?}, {0x100e3fd18?, 0x14000142540?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x140001327e0, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:46 server.go:3489: http: panic serving [::1]:53772: runtime error: slice bounds out of range [-9:]
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x14000444e70?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+tradingBitCoin/app/tradingalgo.IchimokuCloud({0x14000400dd0?, 0x19, 0x14000319868?})
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/tradingalgo/algo.go:48 +0xd8
+tradingBitCoin/app/models.(*DataFrameCandle).AddIchimoku(0x1400014e960)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:155 +0x138
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x14000142620}, 0x1400012a8c0)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:132 +0x43c
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x14000142620}, 0x1400012a8c0)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x14000142620?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x14000142620}, 0x1400012a8c0)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x14000125e60?}, {0x100e3fd18?, 0x14000142620?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x140000a4480, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:47 server.go:3489: http: panic serving [::1]:53773: runtime error: slice bounds out of range [-9:]
+goroutine 66 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x14000445848?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+tradingBitCoin/app/tradingalgo.IchimokuCloud({0x14000401860?, 0x19, 0x14000319868?})
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/tradingalgo/algo.go:48 +0xd8
+tradingBitCoin/app/models.(*DataFrameCandle).AddIchimoku(0x1400014eaa0)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:155 +0x138
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x14000142700}, 0x1400012aa00)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:132 +0x43c
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x14000142700}, 0x1400012aa00)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x14000142700?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x14000142700}, 0x1400012aa00)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x14000458210?}, {0x100e3fd18?, 0x14000142700?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000132ab0, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:48 server.go:3489: http: panic serving [::1]:53774: runtime error: slice bounds out of range [-9:]
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x14000492228?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+tradingBitCoin/app/tradingalgo.IchimokuCloud({0x14000494680?, 0x19, 0x14000319868?})
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/tradingalgo/algo.go:48 +0xd8
+tradingBitCoin/app/models.(*DataFrameCandle).AddIchimoku(0x1400014ebe0)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:155 +0x138
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x140001427e0}, 0x1400012ab40)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:132 +0x43c
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x140001427e0}, 0x1400012ab40)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x140001427e0?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x140001427e0}, 0x1400012ab40)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x140004585a0?}, {0x100e3fd18?, 0x140001427e0?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000132c60, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:48 server.go:3489: http: panic serving [::1]:53775: runtime error: slice bounds out of range [-9:]
+goroutine 70 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x14000492c00?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+tradingBitCoin/app/tradingalgo.IchimokuCloud({0x14000495790?, 0x19, 0x14000319868?})
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/tradingalgo/algo.go:48 +0xd8
+tradingBitCoin/app/models.(*DataFrameCandle).AddIchimoku(0x1400014ed20)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:155 +0x138
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x140001428c0}, 0x1400012ac80)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:132 +0x43c
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x140001428c0}, 0x1400012ac80)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x140001428c0?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x140001428c0}, 0x1400012ac80)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x14000458a50?}, {0x100e3fd18?, 0x140001428c0?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000132e10, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:48 server.go:3489: http: panic serving [::1]:53776: runtime error: slice bounds out of range [-9:]
+goroutine 72 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:1947 +0xb0
+panic({0x100e13f80?, 0x140004935d8?})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/runtime/panic.go:785 +0x124
+tradingBitCoin/app/tradingalgo.IchimokuCloud({0x140004d48f0?, 0x19, 0x14000319868?})
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/tradingalgo/algo.go:48 +0xd8
+tradingBitCoin/app/models.(*DataFrameCandle).AddIchimoku(0x1400014ee60)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/models/dfcandle.go:155 +0x138
+tradingBitCoin/app/controllers.apiCandleHandler({0x100e3fd18, 0x140001429a0}, 0x1400012adc0)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:132 +0x43c
+tradingBitCoin/app/controllers.StartWebServer.apiMakeHandler.func1({0x100e3fd18, 0x140001429a0}, 0x1400012adc0)
+	/Users/yagisawahodaka/Desktop/GoPractice/bitCoinTradeSystem/tradingBitCoin/app/controllers/webserver.go:47 +0x88
+net/http.HandlerFunc.ServeHTTP(0x1010e1ba0?, {0x100e3fd18?, 0x140001429a0?}, 0x100b4f004?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2220 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100e3fd18, 0x140001429a0}, 0x1400012adc0)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2747 +0x1b4
+net/http.serverHandler.ServeHTTP({0x14000459020?}, {0x100e3fd18?, 0x140001429a0?}, 0x6?)
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3210 +0xbc
+net/http.(*conn).serve(0x14000132fc0, {0x100e404a8, 0x140001a5a40})
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:2092 +0x4fc
+created by net/http.(*Server).Serve in goroutine 1
+	/opt/homebrew/Cellar/go/1.23.0/libexec/src/net/http/server.go:3360 +0x3dc
+2024/10/17 12:04:58 streamdata.go:16: action=StreamIngestionData, {BTC_USD 2024-10-17T03:04:58.5329841Z 419299 67314.61 67602.07 0.00434784 0.04861195 4.60764226 3.50805519 67517.15 0.38653108 0.38653108}
