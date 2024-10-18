@@ -44,7 +44,7 @@ func IchimokuCloud(inReal []float64) ([]float64, []float64, []float64, []float64
 	chikou := make([]float64, min(26, length))
 
 	for i := range inReal {
-		if i >= 0 {
+		if i >= 9 {
 			min, max := minMax(inReal[i-9 : i])
 			tenkan = append(tenkan, (min+max)/2)
 		}
@@ -54,6 +54,7 @@ func IchimokuCloud(inReal []float64) ([]float64, []float64, []float64, []float64
 			senkouA = append(senkouA, (tenkan[i]+kijun[i])/2)
 			chikou = append(chikou, inReal[i-26])
 		}
+
 		if i >= 52 {
 			min, max := minMax(inReal[i-52 : i])
 			senkouB = append(senkouB, (min+max)/2)

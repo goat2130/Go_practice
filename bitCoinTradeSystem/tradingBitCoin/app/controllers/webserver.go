@@ -9,6 +9,7 @@ import (
 	"regexp"
 	"strconv"
 	"tradingBitCoin/app/models"
+
 	"tradingBitCoin/config"
 )
 
@@ -187,11 +188,7 @@ func apiCandleHandler(w http.ResponseWriter, r *http.Request) {
 	events := r.URL.Query().Get("events")
 	if events != "" {
 		if config.Config.BackTest {
-			p, p1, p2 := df.OptimizeEma()
-			log.Println(p, p1, p2)
-			if p > 0 {
-				df.Events = df.BackTestEma(p1, p2)
-			}
+			df.Events = Ai.SignalEvents.CollectAfter(df.Candles[0].Time)
 		} else {
 			firstTime := df.Candles[0].Time
 			df.AddEvents(firstTime)
